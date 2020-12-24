@@ -1,0 +1,57 @@
+.login{
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/timg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .login-header{
+        opacity:0.6; filter: alpha(opacity=60);
+        height: 200px;
+        background-color:#ccc;
+        div{
+            position: fixed;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .login-logo{
+            height: 100px;
+            width: 100px;
+        }
+        .login-name{
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+    }
+    .login-content{
+        position: fixed;
+        height: 300px;
+        width: 400px;
+        top: 50%;
+        left: 50%;
+        background-color: #fff;
+        margin-left: -200px;
+        margin-top: -150px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 30px;
+        .title{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .login-form{
+            width: 100%;
+            .login-form-button{
+                width: 100%;
+                border-radius: 4px;
+            }
+            .login-form-input{
+                border-radius: 4px;
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+antd标签： Menu组件选择当前路径用selectedKeys属性最好，其次需要用路由组件Link包裹nav某一个左侧栏才能跳转，例如<Link to={item.path}>首页</Link>;
+withRouter组件时路由组件中的，是高阶组件，高阶组件中的withRouter, 作用是将一个组件包裹进Route里面, 然后react-router的三个对象history, location, match就会被放进这个组件的props属性中
